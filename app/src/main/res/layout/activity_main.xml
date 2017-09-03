@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tw.com.frankchang.houli.homework_04_getpath_externalstorage.MainActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/xml_padding">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_button"
+        android:textSize="@dimen/xml_textSize"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom"
+        android:onClick="getPathOnClick"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom">
+
+        <TextView
+            android:layout_width="@dimen/xml_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:text="@string/xml_textview_mirror"
+            android:textSize="@dimen/xml_textSize"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="@dimen/xml_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="7.5"
+            android:text=""
+            android:textSize="@dimen/xml_textSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom">
+
+        <TextView
+            android:layout_width="@dimen/xml_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:text="@string/xml_textview_true"
+            android:textSize="@dimen/xml_textSize"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="@dimen/xml_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="7.5"
+            android:text=""
+            android:textSize="@dimen/xml_textSize" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_textview_filelist"
+        android:textSize="@dimen/xml_textSize"
+        android:textColor="@color/blue"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

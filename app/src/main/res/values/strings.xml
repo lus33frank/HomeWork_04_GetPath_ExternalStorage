@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">No:04_GetPath_ExternalStorage</string>
+    <string name="xml_button">取得真實 SDCard 路徑</string>
+    <string name="main_file">資料夾</string>
+    <string name="main_folder">檔案</string>
+    <string name="main_null">NULL</string>
+    <string name="xml_textview_mirror">鏡像路徑：</string>
+    <string name="xml_textview_true">真實路徑：</string>
+    <string name="xml_textview_filelist">資料夾內容列表：</string>
+</resources>
